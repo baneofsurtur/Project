@@ -1,0 +1,32 @@
+
+import javax.swing.*;
+import java.
+public class popUp {
+
+	JOptionPane wind = new JOptionPane();
+	JFrame frame = new JFrame("Hello World");
+	
+	/*wind.showMessageDialog(frame,
+		    "Eggs are not supposed to be green.",
+		    "Inane warning",
+		    JOptionPane.WARNING_MESSAGE);*/
+
+	
+
+
+	void ShowWindow() {
+		//2. Optional: What happens when the frame closes?
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JLabel label = new JLabel("Hello Caleb and Antione");
+		//3. Create components and put them in the frame.
+		//...create emptyLabel...
+		frame.getContentPane().add(label);
+
+		//4. Size the frame.
+		frame.pack();
+
+		//5. Show it.
+		frame.setVisible(true);
+	}
+
+}

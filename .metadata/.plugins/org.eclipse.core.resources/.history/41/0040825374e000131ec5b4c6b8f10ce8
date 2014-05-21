@@ -1,0 +1,19 @@
+import javax.swing.*;
+
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World");
+		popUp newWindow = new popUp();
+		JOptionPane wind = new JOptionPane();
+		JFrame frame = new JFrame("FrameDemo");
+		JOptionPane.showMessageDialog(frame, "Hello World.");
+		/*wind.showMessageDialog(frame,
+			    "Eggs are not supposed to be green.",
+			    "Inane warning",
+			    JOptionPane.WARNING_MESSAGE);*/
+	}
+
+}

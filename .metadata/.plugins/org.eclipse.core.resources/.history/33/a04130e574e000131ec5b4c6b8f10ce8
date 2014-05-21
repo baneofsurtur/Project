@@ -1,0 +1,20 @@
+
+import javax.swing.*;
+
+public class popUp {
+
+	JOptionPane wind = new JOptionPane();
+	JFrame frame = new JFrame("FrameDemo");
+	
+	/*wind.showMessageDialog(frame,
+		    "Eggs are not supposed to be green.",
+		    "Inane warning",
+		    JOptionPane.WARNING_MESSAGE);*/
+
+	
+}
+
+void ShowWindow() {
+	wind.show();
+	//wind.showMessageDialog(frame, "Hello World");
+}
