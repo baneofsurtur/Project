@@ -1,9 +1,0 @@
-
-import javax.swing.*;
-
-public class popUp {
-
-	JOptionPane x = new JOptionPane();
-
-	
-}
